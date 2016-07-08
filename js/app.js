@@ -17,7 +17,8 @@ $(document).ready(function(){
 					'<span class="check"><i class="fa fa-check-square-o" aria-hidden="true"></i></span>'+
 					'<span class="items">'+ shopItem +'</span>'+
 					'<span class="remove"><i class="fa fa-times" aria-hidden="true"></i></span>'+
-				'</li>');
+				'</li>'+
+				'<br style="clear: both" />');
 	});
 
 	//$('#item-contain').mouseenter(function(){
@@ -35,7 +36,8 @@ $(document).ready(function(){
 					'<span class="back"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></span>'+
 					'<span class="items">'+ curShopItem +'</span>'+
 					'<span class="remove"><i class="fa fa-times" aria-hidden="true"></i></span>'+
-				'</li>');
+				'</li>'+
+				'<br style="clear: both" />');
 		$(this).parent().remove();
 		
 	});
@@ -53,7 +55,8 @@ $(document).ready(function(){
 					'<span class="check"><i class="fa fa-check-square-o" aria-hidden="true"></i></span>'+
 					'<span class="items">'+ curShopItem +'</span>'+
 					'<span class="remove"><i class="fa fa-times" aria-hidden="true"></i></span>'+
-				'</li>');
+				'</li>'+
+				'<br style="clear: both" />');
 		$(this).parent().remove();
 
 	});

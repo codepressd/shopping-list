@@ -29,7 +29,7 @@ ul{
 
 .list-area{
 	width: 100%;
-	min-height: 8em;
+	min-height: 400px;
 
 }
 .needed-list, .purchased-list{
@@ -122,7 +122,7 @@ li>span{
 	visibility: hidden;
 }
 #item-contain{
-	padding: 2em;
+	padding: 0.7em;
 	font-size: 1.5em;
 }
 
