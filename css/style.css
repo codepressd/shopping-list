@@ -1,0 +1,118 @@
+body{
+	background-color: #fff;
+	font-family: 'Lora', serif;
+	color: #a5a5a5;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+header, section, footer{
+	margin: 0 auto;
+
+}
+
+header{
+	background-color: #285280;
+	padding: 20px;
+}
+header>h1{
+	color: #dbdbdb;
+}
+ul{
+	list-style-type: none;
+	padding: 1em 0;
+}
+ul>li{
+	font-size: 2em;
+}
+/*The Two List areas*/
+
+.list-area{
+	width: 100%;
+
+}
+.needed-list, .purchased-list{
+	width: 50%;
+	float: left;
+}
+
+.title {
+  margin:1em auto;
+  width:50%;
+  border: 0.2em solid #1abc9c;
+  box-shadow:
+   1px 1px 0 #16a085,
+   2px 2px 0 #16a085,
+   3px 3px 0 #16a085,
+   4px 4px 0 #16a085,
+   5px 5px 0 #16a085
+  ;
+}
+
+
+/*Search Box Styling*/
+.input-area{
+	background-color: #285280;
+	height: 10rem;
+	padding: 10px;
+}
+
+.field {
+  display:flex;
+  position:realtive;
+  margin:1em auto;
+  width:50%;
+  flex-direction:row;
+  box-shadow:
+   1px 1px 0 #16a085,
+   2px 2px 0 #16a085,
+   3px 3px 0 #16a085,
+   4px 4px 0 #16a085,
+   5px 5px 0 #16a085
+  ;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font-size:1.4em;
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid rgb(26, 188, 156);
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:rgb(26, 188, 156);
+  color:white;
+  border:none;
+}
+
+/*Items styling*/
+
+ul>li{
+	font-size: 2em;
+	width: 80%;
+	margin: 0 auto;
+}
+li>span{
+	width: 33%;
+	float: left;
+}
+
+.check{
+	color: #16a085;
+	cursor: pointer;
+}
+.remove{
+	color: #ce0404;
+	cursor: pointer;
+}
+.back{
+	color: #16a085;
+	cursor: pointer;
+}
