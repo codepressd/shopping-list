@@ -22,14 +22,14 @@ header>h1{
 ul{
 	list-style-type: none;
 	padding: 1em 0;
+	display: block;
 }
-ul>li{
-	font-size: 2em;
-}
+
 /*The Two List areas*/
 
 .list-area{
 	width: 100%;
+	min-height: 8em;
 
 }
 .needed-list, .purchased-list{
@@ -97,6 +97,7 @@ ul>li{
 ul>li{
 	font-size: 2em;
 	width: 80%;
+	height: 100%;
 	margin: 0 auto;
 }
 li>span{
@@ -115,4 +116,19 @@ li>span{
 .back{
 	color: #16a085;
 	cursor: pointer;
+}
+
+.hidden{
+	visibility: hidden;
+}
+#item-contain{
+	padding: 2em;
+	font-size: 1.5em;
+}
+
+/*footer*/
+.foot{
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
 }
